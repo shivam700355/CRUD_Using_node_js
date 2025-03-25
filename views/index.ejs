@@ -37,9 +37,9 @@
                                     <td>
                                         <%= student.email %>
                                     </td>
-                                    <td>
+                                    <td class="d-flex">
                                         <a href="/edit/<%=student.id %>"> <button
-                                                class="btn btn-primary btn-sm">Edit</button></a>
+                                                class="btn btn-primary mx-2 btn-sm">Edit</button></a>
                                         <form action="/delete/<%= student.id %>?_method=DELETE" method="POST">
                                             <button type="submit" class="btn btn-danger btn-sm">Delete</button>
                                         </form>
