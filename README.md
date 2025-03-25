@@ -20,4 +20,4 @@ This project is a simple CRUD (Create, Read, Update, Delete) application built u
    ```sh
    git clone https://github.com/your-repo/crud-app.git
    cd crud-app
-
+<a href="https://crud-three-lovat.vercel.app/" target="blank"> Live Project </a>
